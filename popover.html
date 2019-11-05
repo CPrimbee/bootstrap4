@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Popover</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type="text/css">
+        .row {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Título do Popover"
+                    data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur, cum architecto dicta provident ea ab aut nobis cumque nisi explicabo unde, autem iste magnam cupiditate molestiae distinctio adipisci alias.">
+                    Clique para abrir o Popover
+                </button>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat hic odio, in veritatis autem
+            error maxime possimus quo quam praesentium. Cum recusandae rem repudiandae dolorum doloribus optio
+            consequuntur. Nulla.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat hic odio, in veritatis autem
+            error maxime possimus quo quam praesentium. Cum recusandae rem repudiandae dolorum doloribus optio
+            consequuntur. Nulla.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quaerat hic odio, in veritatis autem
+            error maxime possimus quo quam praesentium. Cum recusandae rem repudiandae dolorum doloribus optio
+            consequuntur. Nulla.</p>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="top"
+                    data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur, cum architecto dicta provident ea ab aut nobis cumque nisi explicabo unde, autem iste magnam cupiditate molestiae distinctio adipisci alias.">
+                    Popover - Top
+                </button>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="right"
+                    data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur, cum architecto dicta provident ea ab aut nobis cumque nisi explicabo unde, autem iste magnam cupiditate molestiae distinctio adipisci alias.">
+                    Popover - Right
+                </button>
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="bottom"
+                    data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur, cum architecto dicta provident ea ab aut nobis cumque nisi explicabo unde, autem iste magnam cupiditate molestiae distinctio adipisci alias.">
+                    Popover - Bottom
+                </button>
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="left"
+                    data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur, cum architecto dicta provident ea ab aut nobis cumque nisi explicabo unde, autem iste magnam cupiditate molestiae distinctio adipisci alias.">
+                    Popover - Left
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</body>
+
+</html>
